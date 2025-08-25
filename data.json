@@ -1,0 +1,94 @@
+{
+    "id_inicio": "rua",
+    "id_cenoura": "quarto2",
+    "comodos":[
+        {
+        "id": "rua",
+        "name": "rua",
+        "caminhos":[{
+            "id": "sala",
+            "acesso": "porta"
+            },
+            {
+            "id": "quarto1",
+            "acesso": "janela"
+            }
+        ],
+        "eh_despista":false
+        },
+        {
+        "id": "sala",
+        "name": "sala",
+        "caminhos":[{
+            "id": "rua",
+            "acesso": "porta"
+            },
+            {
+            "id": "quarto1",
+            "acesso": "porta"
+            }
+        ],
+        "eh_despista":false
+        },
+        {
+        "id": "quarto1",
+        "name": "quarto",
+        "caminhos":[{
+            "id": "sala",
+            "acesso": "porta"
+            },
+            {
+            "id": "rua",
+            "acesso": "janela"
+            }
+        ],
+        "eh_despista":true
+        },
+        {
+        "id": "quarto2",
+        "name": "quarto",
+        "caminhos":[{
+            "id": "cozinha",
+            "acesso": "porta"
+        }],
+        "eh_despista":false
+        },
+        {
+        "id": "corredor",
+        "name": "corredor",
+        "caminhos":[{
+            "id": "cozinha",
+            "acesso": "corredor"
+            },
+            {
+            "id": "sala",
+            "acesso": "corredor"
+            }
+        ],
+        "eh_despista":false
+        },
+        {
+        "id": "banheiro",
+        "name": "quarto",
+        "caminhos":[{
+            "id": "cozinha",
+            "acesso": "porta"
+        }],
+        "eh_despista":true
+        },
+        {
+        "id": "cozinha",
+        "name": "cozinha",
+        "caminhos":[{
+            "id": "quarto2",
+            "acesso": "porta"
+            },
+            {
+            "id": "banheiro",
+            "acesso": "porta"
+            }
+        ],
+        "eh_despista":false
+        }
+    ]
+}
